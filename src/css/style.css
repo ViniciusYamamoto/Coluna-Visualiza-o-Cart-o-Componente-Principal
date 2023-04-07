@@ -1,0 +1,184 @@
+body{
+    background: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 906px;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.sedans{
+    background: hsl(31, 77%, 52%);
+    padding: 45px 50px 45px 45px;
+    width: 302px;
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    letter-spacing: 1px;
+}
+
+.texto{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.button-sedans, .button-suvs, .button-luxury{
+    border-radius: 70px;
+    border: none;
+    padding: 10px 20px ;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+    top: 100px;
+}
+
+.suvs{
+    background: hsl(184, 100%, 22%);
+    padding: 45px 50px 45px 45px;
+    width: 302px;
+    height: 500px;
+}
+
+.luxury{
+    background: hsl(179, 100%, 13%);
+    padding: 45px 40px 45px 45px;
+    width: 302px;
+    height: 500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button-sedans:hover{
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background: hsl(31, 77%, 52%);
+}
+
+.button-suvs:hover{
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background: hsl(184, 100%, 22%);
+}
+
+.button-luxury:hover{
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background: hsl(179, 100%, 13%);
+}
+
+@media(max-width:375px){
+    body{
+        background: hsl(0, 0%, 95%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container{
+        width: 326px;
+        height: 1329px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sedans{
+        background: hsl(31, 77%, 52%);
+        padding: 45px 50px 45px 45px;
+        width: 326px;
+        height: 443px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    h1{
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 700;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: hsla(0, 0%, 100%, 0.75);
+        letter-spacing: 1px;
+    }
+    
+    .texto{
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    
+    .button-sedans, .button-suvs, .button-luxury{
+        border-radius: 70px;
+        border: none;
+        padding: 10px 20px ;
+        font-family: 'Lexend Deca', sans-serif;
+        color: hsl(31, 77%, 52%);
+        text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+        position: relative;
+        top: 30px;
+    }
+
+    .suvs{
+        background: hsl(184, 100%, 22%);
+        padding: 45px 50px 45px 45px;
+        width: 326px;
+        height: 443px;
+    }
+    
+    .luxury{
+        background: hsl(179, 100%, 13%);
+        padding: 45px 40px 45px 45px;
+        width: 326px;
+        height: 443px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .button-sedans:hover{
+        cursor: pointer;
+        border: 2px solid hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%);
+        background: hsl(31, 77%, 52%);
+    }
+    
+    .button-suvs:hover{
+        cursor: pointer;
+        border: 2px solid hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%);
+        background: hsl(184, 100%, 22%);
+    }
+    
+    .button-luxury:hover{
+        cursor: pointer;
+        border: 2px solid hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%);
+        background: hsl(179, 100%, 13%);
+    }
+}
